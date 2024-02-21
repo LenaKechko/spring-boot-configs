@@ -1,29 +1,2 @@
-spring.application.name: weather-app
 
-yandex:
-  key: 80ac0d6d-c3bb-4b47-ae3f-7302308f1173
-
-server:
-  port: 8080
-
-spring:
-  cloud:
-    openfeign:
-      client:
-        config:
-          weather:
-            url: https://api.weather.yandex.ru/v2/forecast
-
-management:
-  endpoints:
-    web:
-      exposure:
-        include: health,prometheus
-  metrics:
-    export:
-      prometheus:
-        enabled:true
-    distribution:
-      percentiles-histogram:
-        "[http.server.requests]": true
 
