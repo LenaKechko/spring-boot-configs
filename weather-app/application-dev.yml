@@ -1,3 +1,6 @@
+properties:
+  profile: dev
+
 yandex:
   key: 80ac0d6d-c3bb-4b47-ae3f-7302308f1173
 
