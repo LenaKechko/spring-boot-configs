@@ -8,7 +8,7 @@ spring:
   data:
     mongodb:
       host: mongo_db
-      database: weather_database1
+      database: weather_database
       port: 27017
   cloud:
     openfeign:
