@@ -1,3 +1,6 @@
+properties:
+  profile: test
+
 spring:
   data:
     mongodb:
